@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.full-width-button {
+  width: 100%;
+}
+
+.boardSelector {
+  margin-bottom: 60px;
+}
