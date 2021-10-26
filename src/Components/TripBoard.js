@@ -13,7 +13,7 @@ export default class TripBoard extends Component {
     
 
     render() {
-        let output = <div>please wait data to load</div>;
+        let output = <div></div>;
 
             if(this.props.trips.length > 0) {
                 output = this.props.trips.map((trip)=> {return <TripItem type={this.props.board} id={trip.detailsId} trip={trip}></TripItem>});
